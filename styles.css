@@ -1,0 +1,128 @@
+/* Main Page */
+body {
+  text-align: center;
+  color: white;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/289/596/879/world-of-warships-wargaming-net-ship-explosion-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 633px;
+}
+
+.splash-title {
+  font-family: 'Bangers', cursive;
+  font-size: 160px;
+  text-shadow: 2px 5px rgb(143 140 140);
+}
+
+.buttons { margin-top: 40px;}
+
+.btn {
+  color: #333;
+  background-color: red;
+  padding: 8px 16px;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: rgb(209 169 0);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Game */
+#messageArea {
+  top: 40px;
+}
+
+#board {
+  width: 360px;
+  height: 515px;
+  margin: auto;
+  background-color: rgba(240, 240, 240, 0.8);
+  color: #333;
+}
+
+table {
+  width: 350px;
+  height: 350px;
+  top: 150px;
+  left: 50px;
+}
+
+td {
+  width: 75px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.btn {
+  color: #333;
+  background-color: red;
+}
+
+form {
+  padding: 5px;
+  background-color: lightgrey;
+  width: 360px;
+  margin-top: 50px;
+}
+
+form input {
+  font-size: 16px;
+}
+
+.form-control {
+  width: 240px;
+  margin-right: 5px;
+}
+
+.b {
+  width: 50px;
+  height: 20px;
+  border: none;
+  text-align: center;
+}
+
+.n {
+  width: 20px;
+  height: 50px;
+  border: none;
+  text-align: center;
+}
+
+#nb {
+  width: 20px;
+  height: 20px;
+  border: none;
+  text-align: center;
+}
+
+p {
+  top: 600px;
+  color: blue;
+}
+
+.hit {
+  background-color: red;
+}
+
+.miss {
+  background-color: grey;
+}
